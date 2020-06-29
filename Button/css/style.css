@@ -1,0 +1,2472 @@
+/*===========================================================*/
+/*---------------------BUTTON 1 START------------------------*/
+/*===========================================================*/
+.BUTTON-1-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas; 
+}
+
+.BUTTON-1-div a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 24px;
+	color: #00fff0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none !important;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.BUTTON-1-div a:hover{
+	color: #255784;
+	background: #00fff0;
+	box-shadow: 0 0 10px #00fff0, 0 0 40px #00fff0, 0 0 80px #00fff0;
+	transition-delay: 1s;
+}
+
+.BUTTON-1-div a span{
+	position: absolute;
+	display: block;
+}
+
+.BUTTON-1-div a span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#00fff0);
+}
+.BUTTON-1-div a:hover span:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+
+.BUTTON-1-div a span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #00fff0);
+}
+.BUTTON-1-div a:hover span:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.BUTTON-1-div a span:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent,#00fff0);
+}
+.BUTTON-1-div a:hover span:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.BUTTON-1-div a span:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #00fff0);
+}
+.BUTTON-1-div a:hover span:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 1 END------------------------*/
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 2 START------------------------*/
+/*===========================================================*/
+.BUTTON-2-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas; 
+}
+
+.BUTTON-2-div a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #f000ff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none !important;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.BUTTON-2-div a:hover{
+	color: #255784;
+	background: #f000ff;
+	box-shadow: 0 0 10px #f000ff, 0 0 40px #f000ff, 0 0 80px #f000ff;
+	transition-delay: 1s;
+}
+
+.BUTTON-2-div a span{
+	position: absolute;
+	display: block;
+}
+
+.BUTTON-2-div a span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#f000ff);
+}
+.BUTTON-2-div a:hover span:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+
+.BUTTON-2-div a span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #f000ff);
+}
+.BUTTON-2-div a:hover span:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.BUTTON-2-div a span:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent,#f000ff);
+}
+.BUTTON-2-div a:hover span:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.BUTTON-2-div a span:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #f000ff);
+}
+.BUTTON-2-div a:hover span:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 2 END------------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 3 START------------------------*/
+/*===========================================================*/
+.BUTTON-3-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas; 
+}
+
+.BUTTON-3-div a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #74ee15;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none !important;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.BUTTON-3-div a:hover{
+	color: #255784;
+	background: #74ee15;
+	box-shadow: 0 0 10px #74ee15, 0 0 40px #74ee15, 0 0 80px #74ee15;
+	transition-delay: 1s;
+}
+
+.BUTTON-3-div a span{
+	position: absolute;
+	display: block;
+}
+
+.BUTTON-3-div a span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#74ee15);
+}
+.BUTTON-3-div a:hover span:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+
+.BUTTON-3-div a span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #74ee15);
+}
+.BUTTON-3-div a:hover span:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.BUTTON-3-div a span:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent,#74ee15);
+}
+.BUTTON-3-div a:hover span:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.BUTTON-3-div a span:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #74ee15);
+}
+.BUTTON-3-div a:hover span:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 3 END------------------------*/
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 4 START------------------------*/
+/*===========================================================*/
+.BUTTON-4-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+
+.BUTTON-4-div a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #e9ff70;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition : 0.5s;
+	letter-spacing: 4px;
+}
+.BUTTON-4-div a:hover{
+	color: #255784;
+	background: #e9ff70;
+	box-shadow: 0 0 10px #e9ff70,
+			    0 0 40px #e9ff70,
+			    0 0 80px #e9ff70;
+	transition-delay: 0.4s ease-in-out;
+}
+
+.BUTTON-4-div a span{
+	position: absolute;
+	display: block;
+}
+
+.BUTTON-4-div a span:nth-child(1){
+	top: 0 ;
+	left: -100;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #e9ff70) ;
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		left: -100%;
+	}
+	50%,100%
+	{
+		left: 100%;
+	}
+}
+
+.BUTTON-4-div a span:nth-child(2){
+	top: -100 ;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(1800deg, transparent, #e9ff70) ;
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+	0%
+	{
+		top: -100%;
+	}
+	50%,100%
+	{
+		top: 100%;
+	}
+}
+
+.BUTTON-4-div a span:nth-child(3){
+	bottom: 0 ;
+	right: -100;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #e9ff70) ;
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+	0%
+	{
+		left: 100%;
+	}
+	50%,100%
+	{
+		left: -100%;
+	}
+}
+
+.BUTTON-4-div a span:nth-child(4){
+	bottom: -100 ;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #e9ff70) ;
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+	0%
+	{
+		top: 100%;
+	}
+	50%,100%
+	{
+		top: -100%;
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 4 END------------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 5 START------------------------*/
+/*===========================================================*/
+.BUTTON-5-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+
+.BUTTON-5-div a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #ff6600;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition : 0.5s;
+	letter-spacing: 4px;
+}
+.BUTTON-5-div a:hover{
+	color: #255784;
+	background: #ff6600;
+	box-shadow: 0 0 10px #ff6600,
+			    0 0 40px #ff6600,
+			    0 0 80px #ff6600;
+	transition-delay: 0.4s ease-in-out;
+}
+
+.BUTTON-5-div a span{
+	position: absolute;
+	display: block;
+}
+
+.BUTTON-5-div a span:nth-child(1){
+	top: 0 ;
+	left: -100;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #ff6600) ;
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		left: -100%;
+	}
+	50%,100%
+	{
+		left: 100%;
+	}
+}
+
+.BUTTON-5-div a span:nth-child(2){
+	top: -100 ;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(1800deg, transparent, #ff6600) ;
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+	0%
+	{
+		top: -100%;
+	}
+	50%,100%
+	{
+		top: 100%;
+	}
+}
+
+.BUTTON-5-div a span:nth-child(3){
+	bottom: 0 ;
+	right: -100;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #ff6600) ;
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+	0%
+	{
+		left: 100%;
+	}
+	50%,100%
+	{
+		left: -100%;
+	}
+}
+
+.BUTTON-5-div a span:nth-child(4){
+	bottom: -100 ;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #ff6600) ;
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+	0%
+	{
+		top: 100%;
+	}
+	50%,100%
+	{
+		top: -100%;
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 5 END------------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 6 START------------------------*/
+/*===========================================================*/
+.BUTTON-6-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+
+.BUTTON-6-div a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #ff0099;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition : 0.5s;
+	letter-spacing: 4px;
+}
+.BUTTON-6-div a:hover{
+	color: #255784;
+	background: #ff0099;
+	box-shadow: 0 0 10px #ff0099,
+			    0 0 40px #ff0099,
+			    0 0 80px #ff0099;
+	transition-delay: 0.4s ease-in-out;
+}
+
+.BUTTON-6-div a span{
+	position: absolute;
+	display: block;
+}
+
+.BUTTON-6-div a span:nth-child(1){
+	top: 0 ;
+	left: -100;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #ff0099) ;
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		left: -100%;
+	}
+	50%,100%
+	{
+		left: 100%;
+	}
+}
+
+.BUTTON-6-div a span:nth-child(2){
+	top: -100 ;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(1800deg, transparent, #ff0099) ;
+	animation: animate2 1s linear infinite;
+	animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+	0%
+	{
+		top: -100%;
+	}
+	50%,100%
+	{
+		top: 100%;
+	}
+}
+
+.BUTTON-6-div a span:nth-child(3){
+	bottom: 0 ;
+	right: -100;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #ff0099) ;
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+	0%
+	{
+		left: 100%;
+	}
+	50%,100%
+	{
+		left: -100%;
+	}
+}
+
+.BUTTON-6-div a span:nth-child(4){
+	bottom: -100 ;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #ff0099) ;
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+	0%
+	{
+		top: 100%;
+	}
+	50%,100%
+	{
+		top: -100%;
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 6 END------------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 7 START------------------------*/
+/*===========================================================*/
+.BUTTON-7-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: "montserrat",sans-serif;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+}
+
+.BUTTON-7-div button{
+	  width: 200px;
+	  height: 60px;
+	  background: none;
+	  border: 4px solid;
+	  color: #5396FF;
+	  font-weight: 700;
+	  text-transform: uppercase;
+	  cursor: pointer;
+	  font-size: 16px;
+	  position: relative;
+}
+
+.BUTTON-7-div button::before,.BUTTON-7-div button::after{
+	  content: "";
+	  position: absolute;
+	  width: 14px;
+	  height: 4px;
+	  background: #353b48;
+	  transform: skewX(50deg);
+	  transition: .4s linear;
+}
+
+.BUTTON-7-div button::before{
+	  top: -4px;
+	  left: 10%;
+}
+
+.BUTTON-7-div button::after{
+	  bottom: -4px;
+	  right: 10%;
+}
+
+.BUTTON-7-div button:hover:before{
+  	left: 80%;
+}
+
+.BUTTON-7-div button:hover:after{
+  	right: 80%;
+}
+
+/*===========================================================*/
+/*-----------------------BUTTON 7 END------------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 8 START------------------------*/
+/*===========================================================*/
+.BUTTON-8-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: "montserrat",sans-serif;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+}
+
+.BUTTON-8-div button{
+	  width: 200px;
+	  height: 60px;
+	  background: none;
+	  border: 4px solid;
+	  color: #96FF53;
+	  font-weight: 700;
+	  text-transform: uppercase;
+	  cursor: pointer;
+	  font-size: 16px;
+	  position: relative;
+}
+
+.BUTTON-8-div button::before,.BUTTON-8-div button::after{
+	  content: "";
+	  position: absolute;
+	  width: 14px;
+	  height: 4px;
+	  background: #353b48;
+	  transform: skewX(50deg);
+	  transition: .4s linear;
+}
+
+.BUTTON-8-div button::before{
+	  top: -4px;
+	  left: 10%;
+}
+
+.BUTTON-8-div button::after{
+	  bottom: -4px;
+	  right: 10%;
+}
+
+.BUTTON-8-div button:hover:before{
+  	left: 80%;
+}
+
+.BUTTON-8-div button:hover:after{
+  	right: 80%;
+}
+
+/*===========================================================*/
+/*-----------------------BUTTON 8 END------------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 9 START------------------------*/
+/*===========================================================*/
+.BUTTON-9-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: "montserrat",sans-serif;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+}
+
+.BUTTON-9-div button{
+	  width: 200px;
+	  height: 60px;
+	  background: none;
+	  border: 4px solid;
+	  color: #FF9653;
+	  font-weight: 700;
+	  text-transform: uppercase;
+	  cursor: pointer;
+	  font-size: 16px;
+	  position: relative;
+}
+
+.BUTTON-9-div button::before,.BUTTON-9-div button::after{
+	  content: "";
+	  position: absolute;
+	  width: 14px;
+	  height: 4px;
+	  background: #353b48;
+	  transform: skewX(50deg);
+	  transition: .4s linear;
+}
+
+.BUTTON-9-div button::before{
+	  top: -4px;
+	  left: 10%;
+}
+
+.BUTTON-9-div button::after{
+	  bottom: -4px;
+	  right: 10%;
+}
+
+.BUTTON-9-div button:hover:before{
+  	left: 80%;
+}
+
+.BUTTON-9-div button:hover:after{
+  	right: 80%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 9 END------------------------*/
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 10 START-----------------------*/
+/*===========================================================*/
+.BUTTON-10-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: poppins;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+
+}
+
+.BUTTON-10-div a{
+    position: relative;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    text-decoration: none;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius : 100px;
+    transition: 1s;
+}
+.BUTTON-10-div a:hover{
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+  text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 10 END-----------------------*/
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 11 START-----------------------*/
+/*===========================================================*/
+.BUTTON-11-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: poppins;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+
+}
+
+.BUTTON-11-div a{
+    position: relative;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #FF9653;
+    font-family: poppins;
+    font-weight: 400;
+    text-decoration: none;
+    border: 5px solid #FF9653;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius : 100px;
+    transition: 1s;
+}
+.BUTTON-11-div a:hover{
+  box-shadow: 0 5px 50px 0 #FF9653 inset, 0 5px 50px 0 #FF9653, 
+              0 5px 50px 0 #FF9653 inset, 0 5px 50px 0 #FF9653;
+  text-shadow: 0 0 5px #FF9653,0 0 5px #FF9653;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 11 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 12 START-----------------------*/
+/*===========================================================*/
+.BUTTON-12-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: poppins;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+}
+
+.BUTTON-12-div a{
+    position: relative;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #96FF53;
+    font-family: poppins;
+    font-weight: 400;
+    text-decoration: none;
+    border: 5px solid #96FF53;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius : 100px;
+    transition: 1s;
+}
+.BUTTON-12-div a:hover{
+  box-shadow: 0 5px 50px 0 #96FF53 inset, 0 5px 50px 0 #96FF53, 
+              0 5px 50px 0 #96FF53 inset, 0 5px 50px 0 #96FF53;
+  text-shadow: 0 0 5px #96FF53,0 0 5px #96FF53;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 12 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 13 START-----------------------*/
+/*===========================================================*/
+.BUTTON-13-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: poppins;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  z-index: 
+}
+
+.BUTTON-13-div button{
+    position: relative;
+    padding: 20px 30px;
+    font-size: 18px;
+	border: 2px solid #2ecc71;
+    text-align: center;
+	background-color: transparent;
+	color:#2ecc71;
+	font-family: poppins;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+	overflow: hidden;
+	z-index: 0;
+}
+.BUTTON-13-div button::before{
+	content: "";
+	position: absolute;
+	height: 600%;
+	width: 100%;
+  	top: -300px;
+  	left: -20px;
+	background-color: #2ecc71;
+	transform: translateX(-100%) rotate(45deg);
+	transition: 0.4s ease-in-out;
+	z-index: -1;
+}
+.BUTTON-13-div button:hover::before{
+	top:20px; 
+  	left:290px;
+	transform: translateX(0%) rotate(45deg);
+	z-index: -1;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 13 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 14 START-----------------------*/
+/*===========================================================*/
+.BUTTON-14-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: poppins;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  z-index: 
+}
+
+.BUTTON-14-div button{
+    position: relative;
+    padding: 20px 30px;
+    font-size: 18px;
+	border: 2px solid #fff;
+    text-align: center;
+	background-color: transparent;
+	color:#fff;
+	font-family: poppins;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+	overflow: hidden;
+	z-index: 0;
+}
+.BUTTON-14-div button::before{
+	content: "";
+	position: absolute;
+	height: 600%;
+	width: 100%;
+  	top: -300px;
+  	left: -20px;
+	background-color: rgba(255, 255, 255,0.5);
+	transform: translateX(-100%) rotate(45deg);
+	transition: 0.4s ease-in-out;
+	z-index: -1;
+}
+.BUTTON-14-div button:hover::before{
+	top:20px; 
+  	left:290px;
+	transform: translateX(0%) rotate(45deg);
+	z-index: -1;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 14 END-----------------------*/
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 15 START-----------------------*/
+/*===========================================================*/
+.BUTTON-15-div{
+	  background:#031321;
+	  height: 200px;
+	  font-family: poppins;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  z-index: 
+}
+
+.BUTTON-15-div button{
+    position: relative;
+    padding: 20px 30px;
+    font-size: 18px;
+	border: 2px solid #f39c12;
+    text-align: center;
+	background-color: transparent;
+	color:#f39c12;
+	font-family: poppins;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+	overflow: hidden;
+	z-index: 0;
+}
+.BUTTON-15-div button::before{
+	content: "";
+	position: absolute;
+	height: 600%;
+	width: 100%;
+  	top: -300px;
+  	left: -20px;
+	background-color: #f39c12;
+	transform: translateX(-100%) rotate(45deg);
+	transition: 0.4s ease-in-out;
+	z-index: -1;
+}
+.BUTTON-15-div button:hover::before{
+	top:20px; 
+  	left:290px;
+	transform: translateX(0%) rotate(45deg);
+	z-index: -1;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 15 END-----------------------*/
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 16 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-16-div{
+	position: relative;
+	background:#031321;
+	height: 200px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.BUTTON-16-div input[type="checkbox"]{
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	-webkit-appearance: none;
+	background: #c6c6c6;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 5px rgba(0 ,0, 0, 0.2);
+	transition: 1s;
+}
+.BUTTON-16-div input:checked[type="checkbox"]{
+	background: #03a9f4;
+}
+
+.BUTTON-16-div input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	transform: scale(1.1);
+	box-shadow: 0 2 5px rgba(0 ,0, 0, 0.2);
+	transition: 0.5s;
+}
+
+.BUTTON-16-div input:checked[type="checkbox"]:before{
+	left: 40px;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 16 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 17 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-17-div{
+	position: relative;
+	background:#f3f3f3;
+	height: 200px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.BUTTON-17-div input[type="checkbox"]{
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	-webkit-appearance: none;
+	background: #c6c6c6;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 5px rgba(0 ,0, 0, 0.2);
+	transition: 1s;
+}
+.BUTTON-17-div input:checked[type="checkbox"]{
+	background: #2ecc71;
+}
+
+.BUTTON-17-div input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	background: #e67e22;
+	transform: scale(1.1);
+	box-shadow: 0 2 5px rgba(0 ,0, 0, 0.2);
+	transition: 0.5s;
+}
+
+.BUTTON-17-div input:checked[type="checkbox"]:before{
+	left: 40px;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 17 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 18 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-18-div{
+	position: relative;
+	background: #031321;
+	height: 200px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.BUTTON-18-div input[type="checkbox"]{
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	-webkit-appearance: none;
+	background: #e67e22;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 5px rgba(0 ,0, 0, 0.2);
+	transition: 1s;
+}
+.BUTTON-18-div input:checked[type="checkbox"]{
+	background: #03a9f4;
+}
+
+.BUTTON-18-div input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	transform: scale(1.1);
+	box-shadow: 0 2 5px rgba(0 ,0, 0, 0.2);
+	transition: 0.5s;
+}
+
+.BUTTON-18-div input:checked[type="checkbox"]:before{
+	left: 40px;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 18 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 19 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-19-div{
+	position: relative;
+	background: #031321;
+	height: 200px;
+	font-family: 'poppins',sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.BUTTON-19-div a{
+	position: relative;
+	padding: 10px 30px;
+	margin: 0 15px;
+	color: #21ebff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	transition: 0.8s;
+}
+.BUTTON-19-div a:hover{
+	background: #21ebff;
+	color: #111;
+	box-shadow: 0 0 50px #21ebff;
+}
+
+.BUTTON-19-div a:before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid #21ebff;
+	border-left: 2px solid #21ebff;
+	transition: 0.5s;
+}
+.BUTTON-19-div a:hover:before{
+	width: 100%;
+	height: 100%;
+}
+
+.BUTTON-19-div a:after{
+	content:"";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid #21ebff;
+	border-right: 2px solid #21ebff;
+	transition: 0.5s;
+}
+.BUTTON-19-div a:hover:after{
+	width: 100%;
+	height: 100%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 19 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 20 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-20-div{
+	position: relative;
+	background: #031321;
+	height: 200px;
+	font-family: 'poppins',sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.BUTTON-20-div a{
+	position: relative;
+	padding: 10px 30px;
+	margin: 0 15px;
+	color: #ff14af;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	transition: 0.8s;
+}
+.BUTTON-20-div a:hover{
+	background: #ff14af;
+	color: #111;
+	box-shadow: 0 0 50px #ff14af;
+}
+
+.BUTTON-20-div a:before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid #ff14af;
+	border-left: 2px solid #ff14af;
+	transition: 0.5s;
+}
+.BUTTON-20-div a:hover:before{
+	width: 100%;
+	height: 100%;
+}
+
+.BUTTON-20-div a:after{
+	content:"";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid #ff14af;
+	border-right: 2px solid #ff14af;
+	transition: 0.5s;
+}
+.BUTTON-20-div a:hover:after{
+	width: 100%;
+	height: 100%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 20 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 21 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-21-div{
+	position: relative;
+	background: #031321;
+	height: 200px;
+	font-family: 'poppins',sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.BUTTON-21-div a{
+	position: relative;
+	padding: 10px 30px;
+	margin: 0 15px;
+	color: #74ff14;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	transition: 0.8s;
+}
+.BUTTON-21-div a:hover{
+	background: #74ff14;
+	color: #111;
+	box-shadow: 0 0 50px #74ff14;
+}
+
+.BUTTON-21-div a:before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid #74ff14;
+	border-left: 2px solid #74ff14;
+	transition: 0.5s;
+}
+.BUTTON-21-div a:hover:before{
+	width: 100%;
+	height: 100%;
+}
+
+.BUTTON-21-div a:after{
+	content:"";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid #74ff14;
+	border-right: 2px solid #74ff14;
+	transition: 0.5s;
+}
+.BUTTON-21-div a:hover:after{
+	width: 100%;
+	height: 100%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 21 END-----------------------*/
+/*===========================================================*/
+
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 22 START-----------------------*/
+/*===========================================================*/
+.BUTTON-22-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+
+.BUTTON-22-div a{
+	position: absolute;
+	color: #1670f0;
+	padding: 20px 30px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+	overflow: hidden;
+}
+
+.BUTTON-22-div a:before{
+	content:"";
+	position :absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	background: rgba(255, 255, 255, 0);
+}
+
+.BUTTON-22-div a span:nth-child(1) 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #0c002b, #1779ff);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(100%);
+	}
+}
+
+.BUTTON-22-div a span:nth-child(2) 
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to bottom, #0c002b, #1779ff);
+	animation: animate2 1s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+
+.BUTTON-22-div a span:nth-child(3) 
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to left, #0c002b, #1779ff);
+	animation: animate3 1s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform: translateX(100%);
+	}
+	100%
+	{
+		transform: translateX(-100%);
+	}
+}
+
+.BUTTON-22-div a span:nth-child(4) 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to top, #0c002b, #1779ff);
+	animation: animate4 1s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform: translateY(100%);
+	}
+	100%
+	{
+		transform: translateY(-100%);
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 22 END-----------------------*/
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 23 START------------------------*/
+/*===========================================================*/
+.BUTTON-23-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+
+.BUTTON-23-div a{
+	position: absolute;
+	color: #74ff14;
+	padding: 20px 30px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+	overflow: hidden;
+}
+
+.BUTTON-23-div a:before{
+	content:"";
+	position :absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	background: rgba(255, 255, 255, 0);
+}
+
+.BUTTON-23-div a span:nth-child(1) 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #0c002b, #74ff14);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(100%);
+	}
+}
+
+.BUTTON-23-div a span:nth-child(2) 
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to bottom, #0c002b, #74ff14);
+	animation: animate2 1s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+
+.BUTTON-23-div a span:nth-child(3) 
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to left, #0c002b, #74ff14);
+	animation: animate3 1s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform: translateX(100%);
+	}
+	100%
+	{
+		transform: translateX(-100%);
+	}
+}
+
+.BUTTON-23-div a span:nth-child(4) 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to top, #0c002b, #74ff14);
+	animation: animate4 1s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform: translateY(100%);
+	}
+	100%
+	{
+		transform: translateY(-100%);
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 23 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 24 START------------------------*/
+/*===========================================================*/
+.BUTTON-24-div{
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+
+.BUTTON-24-div a{
+	position: absolute;
+	color: #FF9653;
+	padding: 20px 30px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+	overflow: hidden;
+}
+
+.BUTTON-24-div a:before{
+	content:"";
+	position :absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: 50%;
+	background: rgba(255, 255, 255, 0);
+}
+
+.BUTTON-24-div a span:nth-child(1) 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #0c002b, #FF9653);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform: translateX(-100%);
+	}
+	100%
+	{
+		transform: translateX(100%);
+	}
+}
+
+.BUTTON-24-div a span:nth-child(2) 
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to bottom, #0c002b, #FF9653);
+	animation: animate2 1s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+
+.BUTTON-24-div a span:nth-child(3) 
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to left, #0c002b, #FF9653);
+	animation: animate3 1s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform: translateX(100%);
+	}
+	100%
+	{
+		transform: translateX(-100%);
+	}
+}
+
+.BUTTON-24-div a span:nth-child(4) 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(to top, #0c002b, #FF9653);
+	animation: animate4 1s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform: translateY(100%);
+	}
+	100%
+	{
+		transform: translateY(-100%);
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 24 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 25 START-----------------------*/
+/*===========================================================*/
+.BUTTON-25-div{
+	display: flex;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+.BUTTON-25-div .outer{
+	position: relative;
+	margin: 0 50px;
+	background: #17847f;
+}
+
+.BUTTON-25-div .button{
+	height: 70px;
+	width: 220px;
+	border-radius: 50px;
+}
+
+.BUTTON-25-div .outer button, .outer span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.BUTTON-25-div .outer button{
+	background: #111;
+	color: #f2f2f2;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.BUTTON-25-div .button button{
+	height: 60px;
+	width: 210px;
+	border-radius: 50px;
+}
+
+.BUTTON-25-div .outer span{
+	height: 100%;
+	width: 100%;
+	background: inherit;
+}
+
+.BUTTON-25-div .button span{
+	border-radius: 50px;
+}
+
+.BUTTON-25-div .outer:hover span:nth-child(1){
+	filter: blur(7px);
+}
+
+.BUTTON-25-div .outer:hover span:nth-child(2){
+	filter: blur(14px);
+}
+
+.BUTTON-25-div .outer:hover{
+	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+	animation: B25rotate 1.5s linear infinite;
+}
+
+@keyframes B25rotate{
+	0%
+	{
+		filter: hue-rotate(0deg);
+	}
+
+	100%
+	{
+		filter: hue-rotate(360deg);
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 25 END-----------------------*/
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 26 START-----------------------*/
+/*===========================================================*/
+.BUTTON-26-div{
+	display: flex;
+	height: 250px;
+	justify-content: center;
+	align-items: center;
+	background:#031321;
+	font-family: consolas;
+}
+
+.BUTTON-26-div .outer{
+	position: relative;
+	margin: 0 50px;
+	background: #17847f;
+}
+
+.BUTTON-26-div .button{
+	height: 70px;
+	width: 220px;
+	border-radius: 50px;
+}
+
+.BUTTON-26-div .circle{
+	height: 200px;
+	width : 200px;
+	border-radius: 50%;
+}
+
+.BUTTON-26-div .outer button, .outer span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.BUTTON-26-div .outer button{
+	background: #111;
+	color: #f2f2f2;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.BUTTON-26-div .button button{
+	height: 60px;
+	width: 210px;
+	border-radius: 50px;
+}
+
+.BUTTON-26-div .circle button{
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+
+.BUTTON-26-div .outer span{
+	height: 100%;
+	width: 100%;
+	background: inherit;
+}
+
+.BUTTON-26-div .button span{
+	border-radius: 50px;
+}
+
+.BUTTON-26-div .circle span{
+	border-radius: 50%;
+}
+
+
+.BUTTON-26-div .outer:hover span:nth-child(1){
+	filter: blur(7px);
+}
+
+.BUTTON-26-div .outer:hover span:nth-child(2){
+	filter: blur(14px);
+}
+
+.BUTTON-26-div .outer:hover{
+	background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+	animation: B26rotate 1.5s linear infinite;
+}
+
+@keyframes B26rotate{
+	0%
+	{
+		filter: hue-rotate(0deg);
+	}
+
+	100%
+	{
+		filter: hue-rotate(360deg);
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 26 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 27 START-----------------------*/
+/*===========================================================*/
+
+.BUTTON-27-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.BUTTON-27-div input[type="checkbox"]{
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	-webkit-appearance: none;
+	background: linear-gradient(0deg, #333, #000);
+	outline: none;
+	border-radius: 20px;
+	box-shadow:  0 0 0 4px #353535,
+				 0 0 0 5px #3e3e3e, 
+				 inset 0 0 1px rgba(0, 0, 0, 1),
+				 0 5px 20px rgba(0, 0, 0, 0.5),
+				 inset 0 0 15px rgba(0, 0, 0, 0.2);
+	transition: 1s;
+}
+.BUTTON-27-div input:checked[type="checkbox"]{
+	background: linear-gradient(0deg, #6dd1ff, #20b7ff);
+	box-shadow:  0 0 2px #6dd1ff,
+				 0 0 0 4px #353535,
+				 0 0 0 5px #3e3e3e, 
+				 inset 0 0 1px rgba(0, 0, 0, 1),
+				 0 5px 20px rgba(0, 0, 0, 0.5),
+				 inset 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.BUTTON-27-div input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	background: linear-gradient(0deg, #000, #6b6b6b);
+	transform: scale(0.98,0.96);
+	box-shadow: 0 0 0 1px #232323;
+	transition: 0.5s;
+}
+
+.BUTTON-27-div input:checked[type="checkbox"]:before{
+	left: 40px;
+}
+
+
+.BUTTON-27-div input[type="checkbox"]:after{
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	border-radius: 20px;
+	top: calc(50% - 2px);
+	left: 65px;
+	background: linear-gradient(0deg, #000, #6b6b6b);
+	transform: scale(0.98,0.96);
+	box-shadow: 0 0 0 1px #232323;
+	transition: 0.5s;
+}
+
+.BUTTON-27-div input:checked[type="checkbox"]:after{
+	background: #63cdff;
+	left:105px;
+	box-shadow: 0 0 5px #13b3ff,0 0 15px #13b3ff;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 27 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 28 START-----------------------*/
+/*===========================================================*/
+.BUTTON-28-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-28-div button{
+    font-size: 20px;
+    width: 230px;
+    height: 60px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+    text-transform: uppercase;
+}
+ 
+.BUTTON-28-div .sky-neon{
+    color: #1c5169;
+    background-color: #86dbff;
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+}
+ 
+.BUTTON-28-div .sky-neon:hover, .sky-neon:focus{
+    -webkit-box-shadow: 0px 0px 20px 15px #3cc6d8;
+    box-shadow: 0px 0px 30px 20px #3cc6d8;
+    background-color: #d7f3ff;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 28 END-----------------------*/
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 29 START-----------------------*/
+/*===========================================================*/
+.BUTTON-29-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-29-div button {
+    font-size: 20px;
+    width: 230px;
+    height: 60px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+}
+
+.BUTTON-29-div .breath-neon{
+    color: #2b8a2f;
+    background-color: #9dffa1;
+    border: 2px solid transparent;
+    -webkit-transition: .5s all ease-in;
+    transition: .5s all ease-in;
+}
+ 
+.BUTTON-29-div .breath-neon:hover, .breath-neon:focus {
+    background-color: #ceffd0;
+    -webkit-animation: breathing 3s infinite;
+            animation: breathing 3s infinite;
+    -webkit-box-shadow: 0px 0px 10px 0px #b5ffb8;
+            box-shadow: 0px 0px 10px 0px #b5ffb8;
+}
+@-webkit-keyframes breathing {
+    0% {-webkit-box-shadow: 0px 0px 10px 0px #b5ffb8;box-shadow: 0px 0px 10px 0px #b5ffb8;}
+    50% {-webkit-box-shadow: 0px 0px 30px 20px #b5ffb8;box-shadow: 0px 0px 30px 20px #b5ffb8;}
+    100% {-webkit-box-shadow: 0px 0px 10px 0px #b5ffb8;box-shadow: 0px 0px 10px 0px #b5ffb8;}
+}
+ 
+@keyframes breathing {
+    0% {-webkit-box-shadow: 0px 0px 10px 0px #b5ffb8;box-shadow: 0px 0px 10px 0px #b5ffb8;}
+    50% {-webkit-box-shadow: 0px 0px 30px 20px #b5ffb8;box-shadow: 0px 0px 30px 20px #b5ffb8;}
+    100% {-webkit-box-shadow: 0px 0px 10px 0px #b5ffb8;box-shadow: 0px 0px 10px 0px #b5ffb8;}
+}
+
+/*===========================================================*/
+/*-----------------------BUTTON 29 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 30 START-----------------------*/
+/*===========================================================*/
+.BUTTON-30-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-30-div button {
+    font-size: 20px;
+    width: 230px;
+    height: 60px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+}
+
+.BUTTON-30-div .heart-bit-neon {
+    background-color: #ff6666;
+    color: #fff;
+    border: 2px solid transparent;
+}
+ 
+.BUTTON-30-div .heart-bit-neon:hover, .heart-bit-neon:focus {
+    background-color: #ff6666;
+    color: #fff;
+    -webkit-animation: heartBit 1.2s infinite;
+            animation: heartBit 1.2s infinite;
+}
+@keyframes heartBit {
+    0%, 30% {-webkit-box-shadow: 0px 0px 30px 10px #ff5a5a;box-shadow: 0px 0px 30px 10px #ff5a5a;}
+    40%,50% {-webkit-box-shadow: 0px 0px 30px 20px #ff5a5a;box-shadow: 0px 0px 30px 20px #ff5a5a;}
+    100% {-webkit-box-shadow: 0px 0px 30px 0px #ff5a5a;box-shadow: 0px 0px 30px 0px #ff5a5a;}
+}
+ 
+@-webkit-keyframes heartBit {
+    0%, 30% {-webkit-box-shadow: 0px 0px 30px 10px #ff5a5a;box-shadow: 0px 0px 30px 10px #ff5a5a;}
+    40%,50% {-webkit-box-shadow: 0px 0px 30px 20px #ff5a5a;box-shadow: 0px 0px 30px 20px #ff5a5a;}
+    100% {-webkit-box-shadow: 0px 0px 30px 0px #ff5a5a;box-shadow: 0px 0px 30px 0px #ff5a5a;}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 30 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 31 START-----------------------*/
+/*===========================================================*/
+.BUTTON-31-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-31-div button {
+    font-size: 20px;
+    width: 230px;
+    height: 60px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+}
+
+.BUTTON-31-div .border-neon {
+    background-color: transparent;
+    border: 2px solid pink;
+    color: pink;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+ 
+.BUTTON-31-div .border-neon:hover, .border-neon:focus {
+    -webkit-box-shadow: inset 0px 0px 8px 3px #ff94b8;
+    box-shadow: 0px 0px 10px 3px #ff94b8, inset 0px 0px 10px 3px #ff94b8;
+    border-color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff94b8, 0 0 40px #ff94b8, 0 0 50px #ff94b8, 0 0 60px #ff94b8, 0 0 70px #ff94b8
+}
+ 
+/*===========================================================*/
+/*-----------------------BUTTON 31 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 32 START-----------------------*/
+/*===========================================================*/
+.BUTTON-32-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.BUTTON-32-div button {
+    font-size: 20px;
+    width: 230px;
+    height: 80px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+}
+ 
+.BUTTON-32-div .inner-height-neon{
+    background-color: transparent;
+    border: 2px solid #00ccb9;
+    color: #00ccb9;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+ 
+.BUTTON-32-div .inner-height-neon .bg-height{
+    background-color: #6bfff1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    height: 0%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: height .3s, top .3s;
+    transition: height .3s, top .3s;
+}
+ 
+.BUTTON-32-div .inner-height-neon .btn-text{
+    z-index: 1;
+}
+ 
+.BUTTON-32-div .inner-height-neon:hover {
+    -webkit-box-shadow: 0px 0px 30px 20px #45ffee;
+    box-shadow: 0px 0px 30px 20px #45ffee;
+    border-color:#6bfff1;
+}
+ 
+.BUTTON-32-div .inner-height-neon:hover .bg-height{
+    height:100%;
+    top:0%;
+    z-index: -1;
+}
+ 
+.BUTTON-32-div .inner-height-neon:hover .btn-text{
+    color:#1aa99b;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 32 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 33 START-----------------------*/
+/*===========================================================*/
+.BUTTON-33-div{
+	position: relative;
+	background:#031321;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.BUTTON-33-div button {
+    font-size: 20px;
+    width: 230px;
+    height: 80px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: lato;
+}
+ 
+.BUTTON-33-div .inner-width-neon {
+    background-color: transparent;
+    border: 2px solid #ffed5a;
+    color: #ffed5a;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+ 
+.BUTTON-33-div .inner-width-neon .bg-width {
+    background-color: #fff6a8;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+    -webkit-transition: width .3s, left .3s;
+    transition: width .3s, left .3s;
+}
+ 
+.BUTTON-33-div .inner-width-neon .btn-text {
+    z-index: 1;
+}
+ 
+.BUTTON-33-div .inner-width-neon:hover {
+    -webkit-box-shadow: 0px 0px 30px 20px #fff5a2;
+    box-shadow: 0px 0px 30px 20px #fff5a2;
+    border-color:#fff6a8;
+}
+ 
+.BUTTON-33-div .inner-width-neon:hover .bg-width {
+    width:100%;
+    left:0%;
+    z-index: -1;
+}
+ 
+.BUTTON-33-div .inner-width-neon:hover .btn-text {
+    color:#a79500
+}
+/*===========================================================*/
+/*-----------------------BUTTON 33 END-----------------------*/
+/*===========================================================*/
