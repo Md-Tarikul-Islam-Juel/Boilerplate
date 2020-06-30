@@ -2720,3 +2720,281 @@
 /*===========================================================*/
 /*-----------------------BUTTON 37 END-----------------------*/
 /*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 38 START-----------------------*/
+/*===========================================================*/
+.BUTTON-38-div{
+	background:#031321;
+	height: 250px;
+	box-sizing: border-box;
+	font-family: consolas;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-38-div a{
+	position: relative;
+	padding: 20px 0px;
+	text-align: center;
+	display: block;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	width: 200px;
+	overflow: hidden;
+}
+
+.BUTTON-38-div a span{
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 8px;
+}
+
+.BUTTON-38-div a .liquid{
+	position: absolute;
+	left: 0;
+	top: -80px;
+	width: 200px;
+	height: 200px;
+	background: #4973ff;
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+}
+
+.BUTTON-38-div a:hover .liquid
+{
+	top: -120px;
+}
+
+.BUTTON-38-div a .liquid:before, 
+.BUTTON-38-div a .liquid:after
+{
+	content: '';
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -75%);
+}
+
+.BUTTON-38-div a .liquid:before
+{
+	border-radius: 45%;
+	background: rgba(20, 20, 20, 1);
+	animation: animate 5s linear infinite;
+}
+
+.BUTTON-38-div a .liquid:after
+{
+	border-radius: 40%;
+	background: rgba(20, 20, 20, 0.5);
+	animation: B38animate 10s linear infinite;
+}
+
+
+@keyframes B38animate
+{
+	0%
+	{
+		transform: translate(-50%, -75%) rotate(0deg) ;
+	}
+	100%
+	{
+		transform: translate(-50%, -75%) rotate(360deg) ;
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 38 END-----------------------*/
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 39 START-----------------------*/
+/*===========================================================*/
+.BUTTON-39-div{
+	background:#031321;
+	height: 250px;
+	box-sizing: border-box;
+	font-family: consolas;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-39-div a{
+	position: relative;
+	padding: 20px 0px;
+	text-align: center;
+	display: block;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	width: 200px;
+	overflow: hidden;
+}
+
+.BUTTON-39-div a span{
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 8px;
+}
+
+.BUTTON-39-div a .liquid{
+	position: absolute;
+	left: 0;
+	top: -80px;
+	width: 200px;
+	height: 200px;
+	background: #FF9653;
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+}
+
+.BUTTON-39-div a:hover .liquid
+{
+	top: -120px;
+}
+
+.BUTTON-39-div a .liquid:before, 
+.BUTTON-39-div a .liquid:after
+{
+	content: '';
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -75%);
+}
+
+.BUTTON-39-div a .liquid:before
+{
+	border-radius: 45%;
+	background: rgba(20, 20, 20, 1);
+	animation: animate 5s linear infinite;
+}
+
+.BUTTON-39-div a .liquid:after
+{
+	border-radius: 40%;
+	background: rgba(20, 20, 20, 0.5);
+	animation: B39animate 10s linear infinite;
+}
+
+
+@keyframes B39animate
+{
+	0%
+	{
+		transform: translate(-50%, -75%) rotate(0deg) ;
+	}
+	100%
+	{
+		transform: translate(-50%, -75%) rotate(360deg) ;
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 39 END-----------------------*/
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 40 START-----------------------*/
+/*===========================================================*/
+.BUTTON-40-div{
+	background:#031321;
+	height: 250px;
+	box-sizing: border-box;
+	font-family: consolas;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.BUTTON-40-div a{
+	position: relative;
+	padding: 20px 0px;
+	text-align: center;
+	display: block;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	width: 200px;
+	overflow: hidden;
+}
+
+.BUTTON-40-div a span{
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 8px;
+}
+
+.BUTTON-40-div a .liquid{
+	position: absolute;
+	left: 0;
+	top: -80px;
+	width: 200px;
+	height: 200px;
+	background: #9653FF;
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+}
+
+.BUTTON-40-div a:hover .liquid
+{
+	top: -120px;
+}
+
+.BUTTON-40-div a .liquid:before, 
+.BUTTON-40-div a .liquid:after
+{
+	content: '';
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -75%);
+}
+
+.BUTTON-40-div a .liquid:before
+{
+	border-radius: 45%;
+	background: rgba(20, 20, 20, 1);
+	animation: animate 5s linear infinite;
+}
+
+.BUTTON-40-div a .liquid:after
+{
+	border-radius: 40%;
+	background: rgba(20, 20, 20, 0.5);
+	animation: B40animate 10s linear infinite;
+}
+
+
+@keyframes B40animate
+{
+	0%
+	{
+		transform: translate(-50%, -75%) rotate(0deg) ;
+	}
+	100%
+	{
+		transform: translate(-50%, -75%) rotate(360deg) ;
+	}
+}
+/*===========================================================*/
+/*-----------------------BUTTON 40 END-----------------------*/
+/*===========================================================*/
