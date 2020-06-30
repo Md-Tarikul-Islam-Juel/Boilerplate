@@ -2470,3 +2470,253 @@
 /*===========================================================*/
 /*-----------------------BUTTON 33 END-----------------------*/
 /*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 34 START-----------------------*/
+/*===========================================================*/
+.BUTTON-34-div{
+	position: relative;
+	background:#ced4da;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+}
+
+.BUTTON-34-div button{
+	position: relative;
+	border: 1px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat" ;
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	overflow: hidden;
+}
+
+.BUTTON-34-div .btn1{
+	color: #3498db;
+}
+
+.BUTTON-34-div .btn1:hover{
+	color: #fff;
+}
+
+.BUTTON-34-div button::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.BUTTON-34-div .btn1::before{
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.BUTTON-34-div .btn1:hover::before{
+	height: 180%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 34 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 35 START-----------------------*/
+/*===========================================================*/
+.BUTTON-35-div{
+	position: relative;
+	background:#ced4da;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+}
+
+.BUTTON-35-div button{
+	position: relative;
+	border: 1px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	overflow: hidden;
+}
+
+
+.BUTTON-35-div .btn2{
+	color: #3498db;
+}
+
+
+.BUTTON-35-div .btn2:hover{
+	color: #fff;
+}
+
+.BUTTON-35-div button::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.BUTTON-35-div .btn2::before{
+	bottom: 0;
+	border-radius: 50% 50% 0 0;
+}
+
+.BUTTON-35-div .btn2:hover::before{
+	height: 180%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 35 END-----------------------*/
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*---------------------BUTTON 36 START-----------------------*/
+/*===========================================================*/
+.BUTTON-36-div{
+	position: relative;
+	background:#ced4da;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+}
+
+.BUTTON-36-div button{
+	position: relative;
+	border: 1px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	overflow: hidden;
+}
+
+
+.BUTTON-36-div .btn3{
+	color: #fff;
+}
+
+.BUTTON-36-div .btn3:hover{
+ 	color: #3498db;
+}
+
+.BUTTON-36-div button::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.BUTTON-36-div .btn3::before{
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.BUTTON-36-div .btn3::before{
+	height: 180%;
+}
+
+.BUTTON-36-div .btn3:hover::before{
+	height: 0%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 36 END-----------------------*/
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*---------------------BUTTON 37 START-----------------------*/
+/*===========================================================*/
+.BUTTON-37-div{
+	position: relative;
+	background:#ced4da;
+	height: 250px;
+	font-family: poppins;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+}
+
+.BUTTON-37-div button{
+	position: relative;
+	border: 1px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	overflow: hidden;
+}
+
+.BUTTON-37-div .btn4{
+	color: #fff;
+}
+
+.BUTTON-37-div .btn4:hover{
+ 	color: #3498db;
+}
+
+.BUTTON-37-div button::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.BUTTON-37-div .btn4::before{
+	bottom: 0;
+	border-radius: 50% 50% 0 0;
+}
+
+.BUTTON-37-div .btn4::before{
+	height: 180%;
+}
+
+.BUTTON-37-div .btn4:hover::before{
+	height: 0%;
+}
+/*===========================================================*/
+/*-----------------------BUTTON 37 END-----------------------*/
+/*===========================================================*/
