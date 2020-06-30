@@ -1,1 +1,1 @@
-Most of the codes are collected from difference source
+Most of the codes are collected from different sources
