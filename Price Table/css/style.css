@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700;1,900&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.SECTION-1{
+	background-color: #FFFFE0;
+	padding: 60px 0;
+}
+/*----------------Pricings-Plans section START-------------------------*/
+/*=======================================*/
+/*============= CARD A START=============*/
+/*=======================================*/
+.card-A-custom{
+	position: relative;
+	width: 80%;
+	float: right;
+	color: #ffffff;
+	text-align: center;
+	background-color:#2c2c54; 
+	transition: 0.4s ease-in-out;
+}
+.card-A-custom:hover{
+	transform: scale(1.1);
+}
+.card-A-custom:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+    border-bottom: 40px solid #2c2c54;
+	border-left: 40px solid #FFFFE0;
+}
+.card-A-custom:after{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+    border-top: 40px solid #2c2c54;
+	border-right: 40px solid #FFFFE0;
+}
+
+
+.card-A-part-1{
+	padding: 30px 0 22px;
+}
+.card-A-part-1 h1{
+	font-size: 26px;
+	font-weight:700;
+	margin: 0 0;
+}
+
+
+.card-A-part-2 h1{
+	font-size: 80px;
+	font-weight:400;
+	color: #16a085;
+	margin: 0 0;
+}
+
+
+.card-A-part-3{
+	padding: 0 0 30px;
+}
+.card-A-part-3 h1{
+	font-size: 16px;
+	font-weight:400;
+	color: #706F71;
+}
+
+
+.card-A-part-4{
+	padding: 5px 0;
+
+}
+.card-A-part-4 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-A-part-5{
+	padding: 5px 0;
+}
+.card-A-part-5 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-A-part-6{
+	padding: 5px 0;
+}
+.card-A-part-6 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-A-part-7{
+	padding: 5px 0;
+}
+.card-A-part-7 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0;
+}
+
+
+.card-A-part-8{
+	padding: 5px 0;
+}
+.card-A-part-8 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-A-part-9{
+	padding: 40px 0;
+}
+.card-A-part-9 button{
+	background-color: #16a085;
+	color: #ffffff;
+	border: none;
+	padding: 10px 40px;
+	font-weight: 500;
+}
+/*=======================================*/
+/*============= CARD A END ==============*/
+/*=======================================*/
+
+
+
+/*=======================================*/
+/*============= CARD B START=============*/
+/*=======================================*/
+.card-B-custom{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	color: #ffffff;
+	text-align: center;
+	background-color:#2c2c54; 
+	transition: 0.4s ease-in-out;
+}
+.card-B-custom:hover{
+	transform: scale(1.1);
+}
+.card-B-custom:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+    border-bottom: 40px solid #2c2c54;
+	border-left: 40px solid #FFFFE0;
+}
+.card-B-custom:after{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+    border-top: 40px solid #2c2c54;
+	border-right: 40px solid #FFFFE0;
+}
+
+
+.card-B-part-1{
+	padding: 30px 0 22px;
+}
+.card-B-part-1 h1{
+	font-size: 26px;
+	font-weight:700;
+	margin: 0 0;
+}
+
+
+.card-B-part-2 h1{
+	font-size: 80px;
+	font-weight:400;
+	color: #16a085;
+	margin: 0 0;
+}
+
+
+.card-B-part-3{
+	padding: 0 0 30px;
+}
+.card-B-part-3 h1{
+	font-size: 16px;
+	font-weight:400;
+	color: #706F71;
+}
+
+
+.card-B-part-4{
+	padding: 5px 0;
+
+}
+.card-B-part-4 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-B-part-5{
+	padding: 5px 0;
+}
+.card-B-part-5 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-B-part-6{
+	padding: 5px 0;
+}
+.card-B-part-6 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-B-part-7{
+	padding: 5px 0;
+}
+.card-B-part-7 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0;
+}
+
+
+.card-B-part-8{
+	padding: 5px 0;
+}
+.card-B-part-8 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-B-part-9{
+	padding: 40px 0;
+}
+.card-B-part-9 button{
+	background-color: #16a085;
+	color: #ffffff;
+	border: none;
+	padding: 10px 40px;
+	font-weight: 500;
+}
+/*=======================================*/
+/*============= CARD B END ==============*/
+/*=======================================*/
+
+
+/*=======================================*/
+/*============= CARD C START=============*/
+/*=======================================*/
+.card-C-custom{
+	position: relative;
+	width: 80%;
+	float:left;
+	color: #ffffff;
+	text-align: center;
+	background-color:#2c2c54; 
+	transition: 0.4s ease-in-out;
+}
+.card-C-custom:hover{
+	transform: scale(1.1);
+}
+.card-C-custom:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+    border-bottom: 40px solid #2c2c54;
+	border-left: 40px solid #FFFFE0;
+}
+.card-C-custom:after{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+    border-top: 40px solid #2c2c54;
+	border-right: 40px solid #FFFFE0;
+}
+
+
+.card-C-part-1{
+	padding: 30px 0 22px;
+}
+.card-C-part-1 h1{
+	font-size: 26px;
+	font-weight:700;
+	margin: 0 0;
+}
+
+
+.card-C-part-2 h1{
+	font-size: 80px;
+	font-weight:400;
+	color: #16a085;
+	margin: 0 0;
+}
+
+
+.card-C-part-3{
+	padding: 0 0 30px;
+}
+.card-C-part-3 h1{
+	font-size: 16px;
+	font-weight:400;
+	color: #706F71;
+}
+
+
+.card-C-part-4{
+	padding: 5px 0;
+
+}
+.card-C-part-4 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-C-part-5{
+	padding: 5px 0;
+}
+.card-C-part-5 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-C-part-6{
+	padding: 5px 0;
+}
+.card-C-part-6 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-C-part-7{
+	padding: 5px 0;
+}
+.card-C-part-7 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0;
+}
+
+
+.card-C-part-8{
+	padding: 5px 0;
+}
+.card-C-part-8 h1{
+	font-size: 16px;
+	font-weight:200;
+	margin: 0 0;
+}
+
+
+.card-C-part-9{
+	padding: 40px 0;
+}
+.card-C-part-9 button{
+	background-color: #16a085;
+	color: #ffffff;
+	border: none;
+	padding: 10px 40px;
+	font-weight: 500;
+}
+/*=======================================*/
+/*============= CARD C END ==============*/
+/*=======================================*/
+
+/*----------------Pricings-Plans section END-------------------------*/
