@@ -1,8 +1,8 @@
-HTML-Boilerplate
+HTML-Boilerplate:\n
 https://md-tarikul-islam-juel.github.io/Boilerplate/HTML-Boilerplate/
 
-Button
+Button:\n
 https://md-tarikul-islam-juel.github.io/Boilerplate/Button/
 
-Price Table
+Price Table:\n
 https://md-tarikul-islam-juel.github.io/Boilerplate/Price%20Table
