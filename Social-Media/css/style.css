@@ -1,0 +1,50 @@
+/*=======================*/
+/*General Part START*/
+/*=======================*/
+
+html {
+  scroll-behavior: smooth;
+}
+/* ----------------------------------------------------- */
+/* -----------------social-media-1---------------------- */
+/* ----------------------------------------------------- */
+
+/* main code */
+.social-media-1 ul {
+  list-style: none;
+}
+.social-media-1 ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.social-media-1 ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  border: 1px solid #232323;
+  text-align: center;
+  color: #232323;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.social-media-1 ul li a:hover {
+  border: 1px solid #fb3434;
+  background: #fb5555;
+  color: #fff;
+}
+
+/* auxilary code */
+.social-media-1 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-media-1 .row {
+  padding: 50px 0px;
+  background-color: #96ff53;
+}
+/*=======================*/
+/*General Part END*/
+/*=======================*/
