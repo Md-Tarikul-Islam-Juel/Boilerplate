@@ -10,14 +10,14 @@ html {
 /* ----------------------------------------------------- */
 
 /* main code */
-.social-media-1 ul {
+.sm-ul-1 {
   list-style: none;
 }
-.social-media-1 ul li {
+.sm-ul-1 .sm-li-1 {
   display: inline-block;
   margin-right: 30px;
 }
-.social-media-1 ul li a {
+.sm-ul-1 .sm-li-1 a {
   display: block;
   width: 40px;
   height: 40px;
@@ -29,14 +29,14 @@ html {
   border-radius: 50%;
   transition: 0.3s;
 }
-.social-media-1 ul li a:hover {
+.sm-ul-1 .sm-li-1 a:hover {
   border: 1px solid #fb3434;
   background: #fb5555;
   color: #fff;
 }
 
 /* auxilary code */
-.social-media-1 ul {
+.social-media-1 .sm-ul-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
