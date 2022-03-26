@@ -26,6 +26,7 @@ html {
   border: 1px solid #232323;
   text-align: center;
   color: #232323;
+  background-color: #badc58;
   border-radius: 50%;
   transition: 0.3s;
 }
@@ -43,7 +44,7 @@ html {
 }
 .social-media-1 .row {
   padding: 50px 0px;
-  background-color: #96ff53;
+  background-color: #95afc0;
 }
 /*=======================*/
 /*General Part END*/
