@@ -16,5 +16,7 @@ https://md-tarikul-islam-juel.github.io/Boilerplate/Social-Media/
 
 ## Nav Bar:
 
-https://md-tarikul-islam-juel.github.io/Boilerplate/NavBar/
+https://md-tarikul-islam-juel.github.io/Boilerplate/NavBar/navbar-1/
+<br/>
+https://md-tarikul-islam-juel.github.io/Boilerplate/NavBar/navbar-2/
 
