@@ -17,6 +17,18 @@ html {
 }
 .navbar .parents .search-bar a {
   color: #ffffff;
+  position: relative;
+}
+.navbar .parents .search-bar .search-box {
+  position: absolute;
+  top: 93px;
+  right: 111px;
+  width: 250px;
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  background-color: #5396ff;
+  border: 1px solid #5396ff;
 }
 .navbar .navbar-nav {
   width: 100%;
@@ -78,6 +90,16 @@ html {
     order: 1;
     margin-left: auto;
     margin-right: 10px;
+  }
+  .navbar .parents .search-bar a {
+    color: #ffffff;
+    position: relative;
+  }
+  .navbar .parents .search-bar .search-box {
+    position: absolute;
+    top: 93px;
+    right: 70px;
+    width: 200px;
   }
 }
 
