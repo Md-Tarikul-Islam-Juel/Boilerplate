@@ -22,5 +22,6 @@ https://md-tarikul-islam-juel.github.io/Boilerplate/NavBar/navbar-2/
 
 ## Owl carousel
 https://md-tarikul-islam-juel.github.io/Boilerplate/jQuery%20plugin/Owl-carousel/
+<br/>
 https://md-tarikul-islam-juel.github.io/Boilerplate/jQuery%20plugin/Owl-carousel-1/
 
