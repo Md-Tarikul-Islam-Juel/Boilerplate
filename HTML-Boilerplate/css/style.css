@@ -9,7 +9,29 @@
 html {
   scroll-behavior: smooth;
 }
-
+.container {
+  display: flex;
+  justify-content: center;
+}
+.flag {
+  width: 600px;
+  height: 350px;
+  background-color: green;
+  position: relative;
+  z-index: 1;
+}
+.flag::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  z-index: 2;
+}
 /*=======================*/
 /*---General Part END----*/
 /*=======================*/
